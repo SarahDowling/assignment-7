@@ -15,7 +15,7 @@ header{
 	background-image: url("../img/vector-beetle.svg"), url("../img/vector-beetle.svg"), url("../img/subtle_white_mini_waves.png");
 	background-size: 30px auto, 30px auto, 75px auto;
 	background-repeat: no-repeat, no-repeat, repeat;
-	background-position: 5% 20%, 95% 20%, center center;
+	background-position: 5% 25%, 95% 25%, center center;
 	overflow: hidden;
 }
 
@@ -30,11 +30,25 @@ li{
 	display: block;
 	width: 25%;
 	text-align: center;
+	color: white;
+	font-size: 1.1em;
+}
+
+li a{
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	margin:0;
+	display: inline-block;
+	text-align: center;
+	padding: 0.25em 0.5em 0.5em 0.5em;
 	background-color: #512200;
 	opacity: 0.6;
-	color: white;
-	padding: 0.5em;
-	font-size: 1.1em;
+}
+
+li a:hover{
+	background-color: #512200;
+	opacity: 0.8;
 }
 
 h1{
@@ -42,6 +56,8 @@ h1{
 	text-align: center;
 	padding-top: 0.3em;
 	padding-bottom: 0.3em;
+	font-size: 2.25em;
+	color: #512200;
 }
 
 h2{
@@ -50,16 +66,18 @@ h2{
 	background-repeat: no-repeat;
 	background-position: center center;
 	color: white;
-	padding: 3.25em 1em 0.75em 1em;
+	padding: 5.65em 2em 0.75em 2em;
 	margin: 0;
 	text-align: center;
 	clear: both;
 	font-weight: normal;
-	line-height: 1.0em
+	line-height: 1.0em;
+	font-size: 1.25em;
 }
 
 h3{
 	margin: 0;
+	font-size: 1em;
 }
 
 .float-left{
@@ -116,9 +134,7 @@ footer{
 }
 
 h3 a{
-	color: white;
-	text-decoration: none;
-	padding: 0 0.75em 0.1em 0.75em;
+	padding: 0.2em 0.75em 0.3em 0.75em;
 	text-decoration: none;
 	background-color: #a8ae98;
 	border-radius: 10px;
@@ -131,4 +147,8 @@ h3 a{
 	width: 60%;
 	bottom: 8%;
 	left: 20%;
+}
+
+h3 a:hover{
+	background-image: linear-gradient(to bottom, #388200, #214D00);
 }
