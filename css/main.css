@@ -7,3 +7,9 @@ html {
 	box-sizing: inherit;
 }
 
+header{
+	background-image: url("../img/vector-beetle.svg"), url("../img/vector-beetle.svg"), url("../img/subtle_white_mini_waves.png");
+	background-size: 30px auto, 30px auto, 75px auto;
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-position: center 10px, left top, left top;
+}
