@@ -71,6 +71,10 @@ h3{
 }
 
 .btn{
+	position: relative;
+}
+
+.btn-1, .btn-2, .btn-3, .btn-4{
 	display: inline-block;
 	padding: 0.2em 0.75em 0.4em 0.75em;
 	text-decoration: none;
