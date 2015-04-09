@@ -105,7 +105,19 @@ h3{
 	width: 50%;
 }
 
-.btn-1, .btn-2, .btn-3, .btn-4{
+footer{
+	background-image: url("../img/vector-beetle.svg");
+	background-size: 20px auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: rgba(81, 34, 0, 0.5);
+	padding: 1em;
+	clear: both;
+}
+
+h3 a{
+	color: white;
+	text-decoration: none;
 	padding: 0 0.75em 0.1em 0.75em;
 	text-decoration: none;
 	background-color: #a8ae98;
@@ -119,14 +131,4 @@ h3{
 	width: 60%;
 	bottom: 8%;
 	left: 20%;
-}
-
-footer{
-	background-image: url("../img/vector-beetle.svg");
-	background-size: 20px auto;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: rgba(81, 34, 0, 0.5);
-	padding: 1em;
-	clear: both;
 }
